@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
             path = './about.html';
             break;
         case '/contact-me':
-            path = './contact.html';
+            path = './contact-me.html';
             break;
         default:
             path = './404.html';
